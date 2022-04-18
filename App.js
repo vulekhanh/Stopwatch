@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import formatTime from 'minutes-seconds-milliseconds';
 const App = () => {
-  const [intervalID, setIntervalID] = useState({});
+  const [intervalID, setIntervalID = useState({});
   const [state, setState] = useState({
     timeElapsed: null,
     running: false,
